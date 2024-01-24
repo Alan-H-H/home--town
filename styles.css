@@ -1,0 +1,62 @@
+
+body {
+    margin: 0 0 0 0;
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Playfair Display', serif;
+    background: gray;
+}
+.top{ 
+    background: url("images/img2.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    font-size: 0.9em
+}
+.top--section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin:0 auto;
+}
+h1{
+    background: lightslategray;
+    border-radius: 0.5em;
+}
+h2{
+    background: gray;
+    border-radius: 0.5em;
+}
+.activities{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.activity{
+    border-radius: 7em;
+    padding: 1em;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 7em;
+}
+.guide--card{
+    background: grey;
+    padding: 0.7em;
+    width: 50%;
+    height: 50%;
+    border-radius: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.5em solid lightslategray;
+}
+.guide{
+    padding: 2em;
+    background: lightgrey;
+    border: 0.5em solid lightslategray;
+}
+.guide--desc{
+    flex-direction: column;
+}
