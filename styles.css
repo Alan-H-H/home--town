@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
 }
 h1{
+    padding: 1em;
     background: lightslategray;
     border-radius: 0.5em;
 }
