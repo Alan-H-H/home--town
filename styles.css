@@ -19,16 +19,9 @@ body {
     justify-content: center;
     width: 40%;
     margin: 0 auto;
+    color: darkblue;
 }
-h1{
-    padding: 1em;
-    background: lightslategray;
-    border-radius: 0.5em;
-}
-h2{
-    background: gray;
-    border-radius: 0.5em;
-}
+
 .activities{
     display: flex;
     justify-content: space-around;
